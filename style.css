@@ -1,0 +1,214 @@
+body{
+    background-color: #8CC461;
+    align-items: center;
+}
+.UpperContainer{
+    border : 2px solid white;
+    /* width : 800px;
+    height : 158px; */
+    align-items: center;
+    display: flex;
+    padding: 16px 20px 15px 18px;
+    align-self: center;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 13px;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+}
+.TextContainer{
+    color: white;
+    font-size: 40px;
+}
+.Score{
+    /* height: 128px;
+    width: 139px; */
+    align-self: center; 
+    display: flex;
+    justify-content: flex-end;   
+    font-size: 17px;
+    gap: 29px;
+}
+/* .CompScore {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.UserScore {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+} */
+.Score>div{
+    margin: 20px;
+    background-color: white;
+    height: 128px;
+    width: 139px;
+    text-align: center;
+    border : 0px;
+    border-radius: 9px;
+}
+.rockScissor{
+    display: flex;
+    justify-content: center;
+    gap : 200px;
+}
+button{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.PaperClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#NxtBtn{
+    display: none;
+    background-color: #89C15E;
+    color: white;
+    width: 119px;
+    height: 40px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 10px ;
+    border: 2px solid white;
+    opacity: 0px;
+
+}
+.Paper{
+    border-radius: 50%;
+    border:16px solid #FFA943;
+}
+.Rock{
+    border:16px solid #0074B6;
+    border-radius: 50%;
+    
+}
+.Scissor{
+    border:16px solid #BD00FF;
+    border-radius: 50%;
+
+}
+#rules{
+    position: fixed;
+    height: 40px;
+    width: 119px;
+    right: 25px;
+    bottom : 23px;
+    border-radius: 10px;
+    color: white;
+    background-color: #8CC461;
+    border: 2px solid white;
+    border-color: white;
+    
+}
+.RulesMenu{
+    display: none;
+    position: fixed;
+    padding: 16px;
+    bottom: 83px;
+    right: 38px;
+    height: 325px;
+    width: 278px;
+    border: 10px solid white;
+    background-color: #004429;
+    color: white;
+    border-radius: 13px;
+    
+}
+#CloseButton{
+    border: 5px solid white;
+    background-color: #FF0000;
+    color: white;
+    font-family: Dangrek;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.LowerContainer{
+    display: block;
+}
+.ResultView{
+    display: none;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.PcOption .UserOption{
+    display: none;
+    height: 156px;
+    width: 156px;
+    border: 10px solid   black ;
+    
+
+}
+.banner{
+    color: white;
+    text-align: center;
+
+}
+/* .root{
+    display: none;
+}
+ */
+#Hurray{
+    display: none;
+}
+#trophy{
+    width: 200.43px;
+    height: 201px;
+    top: 25%;
+    left: 45%;
+    position: absolute;
+    
+}
+#bgimg{
+    width: 504px;
+    height: 297px;
+    /* background-image: url('./trophy.png'); */
+    position: absolute;
+    top: 15%;
+    left: 35%;
+   
+
+}
+#WonMsg1{
+    width: 464px;
+    height: 86px;
+    position: absolute;
+    top: 422px;
+    left: 47%;
+}
+#WonMsg2{
+    width: 457px;
+    height: 48px;
+    position: absolute;
+    top: 480px;
+    left: 46%;
+
+}
+#PlayAgain{
+    width: 174px;
+    height: 44px;
+    position: absolute;
+    top: 550px;
+    left: 46%;
+    border-radius: 9px 0px 0px 0px;
+}
+/* #Hurray{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
